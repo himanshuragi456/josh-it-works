@@ -14,7 +14,7 @@ export default function BrandIcon() {
         Racx
         <span className="text-theme-purple">studio</span>
       </p> */}
-      <img alt="josh it works" src="assets/images/logo-josh.png" width={180} />
+      <img alt="josh it works" src="https://i.postimg.cc/Dwd2p6gk/logo-josh.png" width={180} />
     </Button>
   );
 }
