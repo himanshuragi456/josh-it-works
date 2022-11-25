@@ -4,12 +4,10 @@ import React from 'react';
 import Button from 'elements/Button';
 
 import NotFound from 'assets/images/NotFound.png';
-import { useHistory } from 'react-router-dom';
 
 // eslint-disable-next-line react/prefer-stateless-function
-const NotFoundPage = () => {
+function NotFoundPage() {
   // render() {
-  const history = useHistory();
   return (
     <div className="flex flex-col w-full h-screen justify-center bg-gray-800">
       <div className="flex w-full justify-center">
@@ -27,6 +25,6 @@ const NotFoundPage = () => {
     </div>
   );
   // }
-};
+}
 
 export default NotFoundPage;

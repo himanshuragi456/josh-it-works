@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Form(props) {
   const {
-    name, value, type, placeholder, className, errorResponse,
+    name, value, type, placeholder, className, errorResponse, onChange,
   } = props;
 
   const [hasError, setHasError] = useState(null);
@@ -13,7 +13,7 @@ export default function Form(props) {
   if (type === 'email') pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (type === 'tel') pattern = '[0-9]*';
 
-  const onChange = (event) => {
+  const onChangeHandle = (event) => {
     const target = {
       target: {
         // eslint-disable-next-line object-shorthand
@@ -28,9 +28,9 @@ export default function Form(props) {
     }
 
     if (type === 'tel') {
-      if (event.target.validity.valid) props.onChange(target);
+      if (event.target.validity.valid) onChange(target);
     } else {
-      props.onChange(target);
+      onChange(target);
     }
   };
 
@@ -44,7 +44,7 @@ export default function Form(props) {
           'w-95 sm:w-192 lg:w-192.5 xl:w-192.5 p-4 mx-2 mb-6 font-light text-lg text-theme-blue rounded border border-gray-400 focus:outline-none focus:ring-1 focus:ring-theme-purple',
           className,
         ].join(' ')}
-        onChange={onChange}
+        onChange={onChangeHandle}
         rows="9"
         required
       />
@@ -64,7 +64,7 @@ export default function Form(props) {
             'p-4 font-light text-lg text-theme-blue rounded border border-gray-400 focus:outline-none focus:ring-1 focus:ring-theme-purple',
             className,
           ].join(' ')}
-          onChange={onChange}
+          onChange={onChangeHandle}
           required
         />
         {hasError && (
@@ -87,7 +87,7 @@ export default function Form(props) {
           'p-4 font-light text-lg text-theme-blue rounded border border-gray-400 focus:outline-none focus:ring-1 focus:ring-theme-purple',
           className,
         ].join(' ')}
-        onChange={onChange}
+        onChange={onChangeHandle}
         required
       />
       {hasError && (

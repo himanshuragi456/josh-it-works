@@ -6,8 +6,7 @@
   "extends": ["plugin:react/recommended", "airbnb"],
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true,
-      "modules": true
+      "jsx": true
     },
     "ecmaVersion": 12,
     "sourceType": "module"
@@ -21,5 +20,7 @@
       }
     }
   },
-  "rules": {}
+  "rules": {
+    "linebreak-style": 0
+  }
 }
