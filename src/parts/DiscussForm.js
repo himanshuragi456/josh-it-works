@@ -24,22 +24,22 @@ export default function DiscussForm(props) {
 
     const templateParams = {
       from_name: `${name} - ${company} ( ${phone} - ${email} )`,
-      to_name: 'Racxstudio',
+      to_name: 'Josh IT',
       message: projectIdea,
     };
 
     if (
       name !== ''
-            && company !== ''
-            && email !== ''
-            && phone !== ''
-            && projectIdea !== ''
+      && company !== ''
+      && email !== ''
+      && phone !== ''
+      && projectIdea !== ''
     ) {
       emailjs.send(
-        'service_h4gtndg',
-        'template_a9tvs7a',
+        'service_fg2v1eq',
+        'template_yk09ndk',
         templateParams,
-        'user_csqIxzN5mKsl1yw4ffJzV',
+        '5MdxGcyoVq3UwZSGu',
       )
         .then(() => {
           toast.success('Success! we\'\ll get back to you soon. Thank you!');
@@ -57,7 +57,7 @@ export default function DiscussForm(props) {
       <Fade bottom>
         <h1 className="text-5xl text-theme-blue text-center font-bold">Lets Discuss</h1>
 
-        <p className="font-light text-lg text-gray-400 text-center mb-12">          
+        <p className="font-light text-lg text-gray-400 text-center mb-12">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           Please fill out the form below to discuss your project and we'll get back to you in less than 24 hours.
         </p>
