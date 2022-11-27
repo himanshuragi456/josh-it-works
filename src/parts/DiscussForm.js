@@ -111,7 +111,7 @@ export default function DiscussForm(props) {
               name="projectIdea"
               type="textarea"
               value={data.projectIdea}
-              placeholder="Explain about your project idea"
+              placeholder="Explain about your project idea OR Leave a message"
               className=""
               onChange={props.onChange}
             />
