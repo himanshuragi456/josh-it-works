@@ -48,8 +48,8 @@
     },
     {
       "id": "asd1293ulskmnb5",
-      "title": "Surtido Rico",
-      "imageUrl": "assets/images/Surtido.png",
+      "title": "Sasha Eyewear",
+      "imageUrl": "https://res.cloudinary.com/djxpqemkk/image/upload/v1688950898/Screenshot_2023-07-10_at_6.31.10_AM_evtulx.png",
       "type": "Website",
       "responsibility": ["Web Development", "UI/UX Design"],
       "credit": "https://dribbble.com/shots/15173118-Surtido-Rico"
