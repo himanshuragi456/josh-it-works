@@ -4,9 +4,11 @@ import React from 'react';
 import Button from 'elements/Button';
 
 import NotFound from 'assets/images/NotFound.png';
+import { useHistory } from 'react-router-dom';
 
 // eslint-disable-next-line react/prefer-stateless-function
 function NotFoundPage() {
+  const history = useHistory();
   // render() {
   return (
     <div className="flex flex-col w-full h-screen justify-center bg-gray-800">
@@ -18,7 +20,7 @@ function NotFoundPage() {
         You weren't supposed to find this place...
       </h1>
       <div className="flex justify-center">
-        <Button onClick={() => alert('/')} className="flex w-30 h-10 px-5 mt-5 bg-gray-600 text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
+        <Button onClick={() => history.push('/')} className="flex w-30 h-10 px-5 mt-5 bg-gray-600 text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
           Go Back
         </Button>
       </div>

@@ -16,15 +16,15 @@
   "portfolio": [
     {
       "id": "asd1293uasdads1",
-      "title": "Recruiting App",
-      "imageUrl": "assets/images/Recruiting.png",
-      "type": "Mobile Apps",
-      "responsibility": ["Mobile Development", "UI/UX Design"],
+      "title": "Crocs",
+      "imageUrl": "https://res.cloudinary.com/djxpqemkk/image/upload/v1686734445/Screenshot_2023-06-12_at_4.14.07_PM_xygre8.png",
+      "type": "Website",
+      "responsibility": ["Web Development", "UI/UX Design"],
       "credit": "https://dribbble.com/shots/15164950-Recruiting-app"
     },
     {
       "id": "asd1293uhjkhkjh2",
-      "title": "Stream+",
+      "title": "Thunder.co",
       "imageUrl": "assets/images/Stream.png",
       "type": "Mobile Apps",
       "responsibility": ["Mobile Development", "UI/UX Design"],
@@ -32,8 +32,8 @@
     },
     {
       "id": "asd1293uvbvcbbd3",
-      "title": "Freelance",
-      "imageUrl": "assets/images/Freelance.png",
+      "title": "Drone Shop (E- commerce)",
+      "imageUrl": "https://res.cloudinary.com/djxpqemkk/image/upload/v1688021914/Screenshot_2023-06-29_at_12.22.56_PM_akunkc.png",
       "type": "Mobile Apps",
       "responsibility": ["Mobile Development", "UI/UX Design"],
       "credit": "https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept"
