@@ -17,50 +17,71 @@
     {
       "id": "asd1293uasdads1",
       "title": "Recruiting App",
-      "imageUrl": "assets/images/Recruiting.png",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667979/Portfolio/project1_tsgzck.png",
       "type": "Mobile Apps",
-      "responsibility": ["Mobile Development", "UI/UX Design"],
+      "responsibility": [
+        "Mobile Development",
+        "UI/UX Design"
+      ],
       "credit": "https://dribbble.com/shots/15164950-Recruiting-app"
     },
     {
       "id": "asd1293uhjkhkjh2",
       "title": "Stream+",
-      "imageUrl": "assets/images/Stream.png",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667979/Portfolio/project1_tsgzck.png",
       "type": "Mobile Apps",
-      "responsibility": ["Mobile Development", "UI/UX Design"],
+      "responsibility": [
+        "Mobile Development",
+        "UI/UX Design"
+      ],
       "credit": "https://dribbble.com/shots/15276430-Stream"
     },
     {
       "id": "asd1293uvbvcbbd3",
       "title": "Freelance",
-      "imageUrl": "assets/images/Freelance.png",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667979/Portfolio/project1_tsgzck.png",
       "type": "Mobile Apps",
-      "responsibility": ["Mobile Development", "UI/UX Design"],
+      "responsibility": [
+        "Mobile Development",
+        "UI/UX Design"
+      ],
       "credit": "https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept"
     },
     {
       "id": "asd1293ufgdfgs4",
-      "title": "Aura",
-      "imageUrl": "assets/images/Aura.png",
+      "title": "Colors.co",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667979/Portfolio/project1_tsgzck.png",
       "type": "Website",
-      "responsibility": ["Web Development", "UI/UX Design"],
-      "credit": "https://dribbble.com/shots/15176338-Aura-Website-Main-Page"
+      "responsibility": [
+        "Web Development",
+        "UI/UX Design"
+      ],
+      "credit": "https://dribbble.com/shots/15176338-Aura-Website-Main-Page",
+      "projectdetail": "Coolors is the essential tool for creating and collecting color palettes. It allows you to generate perfect matching colors in seconds. Even if you are not so skilled in design!. You may use a variety of color spaces, including RGB, CMYK, LAB etc."
     },
     {
       "id": "asd1293ulskmnb5",
-      "title": "Surtido Rico",
-      "imageUrl": "assets/images/Surtido.png",
+      "title": "YelpCamp Campgrounds",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667984/Portfolio/project2_dazq0o.png",
       "type": "Website",
-      "responsibility": ["Web Development", "UI/UX Design"],
-      "credit": "https://dribbble.com/shots/15173118-Surtido-Rico"
+      "responsibility": [
+        "Web Development",
+        "UI/UX Design"
+      ],
+      "credit": "https://dribbble.com/shots/15173118-Surtido-Rico",
+      "projectdetail": "A camping sites web app project that enables you to add, update, and delete campgrounds as well as view campgrounds added by other users and receive comments and rating from other users. "
     },
     {
       "id": "asd1293ulkmnbj6",
-      "title": "Courses Management",
-      "imageUrl": "assets/images/ManagementApp.png",
+      "title": "Online Grocery store",
+      "src": "https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667991/Portfolio/project3_rw9d06.jpg",
       "type": "Website",
-      "responsibility": ["Web Development", "UI/UX Design"],
-      "credit": "https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App"
+      "responsibility": [
+        "Web Development",
+        "UI/UX Design"
+      ],
+      "credit": "https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App",
+      "projectdetail": "The project entailed creating an ecommerce website with everyday necessities and food as its products. An Django application with email based authentication and uses cookies - sessions "
     }
   ],
   "advantage": [
