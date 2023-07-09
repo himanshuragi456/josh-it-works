@@ -56,7 +56,7 @@ export default function PortfolioDetail({ data }) {
 
                     <Fade bottom delay={300 * 1}>
                       <div className="flex justify-center xl:mb-6">
-                        <img src={`../${item.imageUrl}`} alt="Project" className="flex w-4/5 sm:w-4/6" />
+                        <img src={item.imageUrl} alt="Project" className="flex w-4/5 sm:w-4/6 border-2" />
                       </div>
                     </Fade>
 
@@ -67,7 +67,7 @@ export default function PortfolioDetail({ data }) {
                         </h1>
 
                         <p className="font-light text-lg text-gray-400 text-justify">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          {item?.desc}
                         </p>
                       </div>
 
