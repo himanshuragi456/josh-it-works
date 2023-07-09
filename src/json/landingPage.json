@@ -56,8 +56,8 @@
     },
     {
       "id": "asd1293ulkmnbj6",
-      "title": "Courses Management",
-      "imageUrl": "assets/images/ManagementApp.png",
+      "title": "Trendy Adobe",
+      "imageUrl": "https://res.cloudinary.com/djxpqemkk/image/upload/v1688951293/Screenshot_2023-07-05_at_5.56.59_PM_fnbpv3.png",
       "type": "Website",
       "responsibility": ["Web Development", "UI/UX Design"],
       "credit": "https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App"
