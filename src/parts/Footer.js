@@ -1,10 +1,14 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
 import BrandIcon from 'parts/BrandIcon';
 import Button from 'elements/Button';
+import { useHistory } from 'react-router-dom';
 
 export default function Footer() {
+  const history = useHistory();
   return (
     <div className="bg-gray-50 border-t border-gray-200 pb-6">
       <div className="container flex-col mx-auto ">
@@ -27,6 +31,26 @@ export default function Footer() {
             </p>
             <p className="text-lg text-gray-400 font-light">
               Indore, Madhya Pradesh, India
+            </p>
+          </div>
+          <div className="w-1/3 mt-0 ml-8 md:ml-16 mr-0 sm:ml-0 sm:mr-5">
+            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+              Policies
+            </h1>
+            <p className="text-lg text-gray-400 font-light" onClick={() => history.push('contact-us')}>
+              Contact Us
+            </p>
+            <p className="text-lg text-gray-400 font-light" onClick={() => history.push('privacy-policy')}>
+              Privacy Policy
+            </p>
+            <p className="text-lg text-gray-400 font-light" onClick={() => history.push('terms-and-conditions')}>
+              Terms and Conditions
+            </p>
+            <p className="text-lg text-gray-400 font-light" onClick={() => history.push('cancellation-and-refund')}>
+              Cancellation and Refund
+            </p>
+            <p className="text-lg text-gray-400 font-light" onClick={() => history.push('shipping-and-delivery')}>
+              Shipping and Delivery
             </p>
           </div>
           <div className="w-1/3 ml-8 md:ml-16 sm:ml-0 mt-0">
