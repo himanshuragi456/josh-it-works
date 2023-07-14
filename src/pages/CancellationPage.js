@@ -38,7 +38,7 @@ function CancellationAndRefundPage() {
         {' '}
         To be eligible for a
         refund, the item must be unused, in its original packaging, and in the
-        same condition as you received it.
+        same condition as you received it, must be returned within 7 days of receiving.
       </p>
       <p className="mb-4">
         <strong>2. Refund Process:</strong>
